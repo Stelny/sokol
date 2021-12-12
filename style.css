@@ -126,6 +126,11 @@ img {
 	padding: 2rem 0;
 	min-height: 700px;
 }
+.team h2 {
+	font-size: 20px;
+	color: var(--secondary);
+	font-weight: bold;
+}
 .header {
 	background: #0C142B;
 	padding: 1rem 5rem;
@@ -192,7 +197,7 @@ img {
 	max-width: 600px;
 }
 .banner img {
-	height: 100%;
+	width: 100%;
 	object-position: center;
 	object-fit: cover;
 	height: 415px;
@@ -291,6 +296,7 @@ h2.shadow-heading {
 	margin: -2rem 0;
 	position: relative;
 	z-index: 0;
+	font-weight: 400;
 }
 .matches-card {
 	padding: 2rem 1rem;
@@ -482,9 +488,13 @@ h2.shadow-heading {
 }
 .subpage {
 	padding: 3rem 0;
+	background: #F3F4F7;
 }
 .contact-table {
-	margin-top: 2rem;
+	width: 100%;
+}
+.contact-table table {
+	width: 100%;
 }
 .contact-table table td {
 	border: 1px solid rgba(112,122,122,0.4);
@@ -500,6 +510,148 @@ h2.shadow-heading {
 	color: var(--primary);
 	font-weight: 500;
 	font-size: 16px
+}
+.contact-table tr:first-child td:last-child {
+	font-size: 24px;
+	font-weight: bold;
+}
+.contact-item {
+	width: 100%;
+	display: flex;
+	margin-bottom: 1.5rem;
+}
+.contact-item-image {
+	max-width: 104px;
+	width: 100%;
+	overflow: hidden;
+	margin-right: 2rem;
+}
+.contact-item-image img {
+	object-fit: cover;
+	width: 100%;
+	object-position: center;
+}
+.contact-item {
+	display: flex;
+}
+.contact-item-text {
+	display: flex;
+	flex-direction: column;
+}
+.contact-item  .name {
+	color: #222222;
+	font-size: 18px;
+	font-weight: 500;
+}
+.contact-item  .desc {
+	font-size: 14px;
+	color: #9C9C9C;
+	font-weight: 300;
+	margin-bottom: 0.5rem;
+}
+.contact-item  .mail {
+	font-size: 14px;
+	color: #222222;
+	font-weight: 500;
+}
+.contact-item  .phone {
+	font-size: 14px;
+	color: #222222;
+	font-weight: 500;
+}
+
+.subpage-banner {
+	height: 150px;
+	overflow: hidden;
+}
+.subpage-banner img {
+	object-position: center;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.subpage .default-content p {
+	color: #9C9C9C;
+}
+.subpage-text p {
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 0.05em;
+	line-height: 31px;
+	text-align: left;
+	color: #2e2e2e;
+	margin-bottom: 2rem;
+}
+.subpage-image {
+	display: flex;
+	height: 350px;
+	margin-bottom: 2rem;
+
+}
+.subpage-image img {
+	object-fit: cover;
+	object-position: center;
+	height: 100%;
+	width: 100%;
+}
+.socials {
+	position: fixed;
+	right: 0;
+	width: 47px;
+	top: 30%;
+	z-index: 99999;
+}
+.social-item.fb {
+	display: flex;
+	width: 47px;
+	height: 49px;
+	background: url(assets/icons/icons/fb.svg) no-repeat center center var(--primary);
+	margin-bottom: 0.125rem;
+}
+.social-item.ig {
+	display: flex;
+	width: 47px;
+	height: 49px;
+	background: url(assets/icons/icons/ig.svg) no-repeat center center var(--secondary);
+	margin-bottom: 1rem;
+}
+.banner.smaller img {
+	height: 337px;
+}
+.news-page h2 {
+	font-size: 20px;
+	color: var(--secondary);
+	font-weight: bold;
+}
+.news-page-content {
+	margin: 3rem 0;
+}
+.contact-table {
+	margin-bottom: 2rem;
+}
+.goal-card {
+	width: 100%;
+	background: white;
+	font-size: 14px;
+	color: #717171;
+	padding: 1rem 2rem;
+	margin-bottom: 1rem;
+}
+.news-page-image {
+	margin-bottom: 1rem;
+	display: block;
+}
+.news-page-image img {
+	height: 247px;
+	width: 100%;
+	object-position: center;
+	object-fit: cover;
+}
+.teams-news .banner-news-item {
+	height: 225px;
+}
+.teams-news .banner-news-item {
+	margin-bottom: 2rem;
 }
 @media (max-width: 1500px) { 
 	.header {
@@ -556,6 +708,14 @@ h2.shadow-heading {
 	.news img {
 		width: 100%;
 		max-width: 140px;
+	}
+	.team .banner-news-item.big {
+		height: unset!important;
+	}
+	.team .banner-news-item.big img {
+		width: 100%;
+		max-width: 140px;
+		height: 140px;
 	}
 }
 @media (max-width: 991px) { 
