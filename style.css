@@ -17,7 +17,7 @@
 /* GLOBAL */
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'SFProText', sans-serif;
 }
 :root {
 	--primary: #CC1B2C;
@@ -296,7 +296,7 @@ h2.shadow-heading {
 	margin: -2rem 0;
 	position: relative;
 	z-index: 0;
-	font-weight: 400;
+	font-weight: 800;
 }
 .matches-card {
 	padding: 2rem 1rem;
