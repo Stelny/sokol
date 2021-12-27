@@ -1,161 +1,107 @@
 @font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-Bold.woff2') format('woff2'),
-        url('SFProText-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-BlackItalic.woff2') format('woff2'),
-        url('SFProText-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-Black.woff2') format('woff2'),
-        url('SFProText-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-Heavy.woff2') format('woff2'),
-        url('SFProText-Heavy.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-HeavyItalic.woff2') format('woff2'),
-        url('SFProText-HeavyItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-BoldItalic.woff2') format('woff2'),
-        url('SFProText-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-LightItalic.woff2') format('woff2'),
-        url('SFProText-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-Medium.woff2') format('woff2'),
-        url('SFProText-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-Light.woff2') format('woff2'),
-        url('SFProText-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-MediumItalic.woff2') format('woff2'),
-        url('SFProText-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-Regular.woff2') format('woff2'),
-        url('SFProText-Regular.woff') format('woff');
+    font-family: 'Avenir LT Pro';
+    src: url('../font/AvenirLTPro-BookOblique.woff2') format('woff2'),
+        url('../font/AvenirLTPro-BookOblique.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-RegularItalic.woff2') format('woff2'),
-        url('SFProText-RegularItalic.woff') format('woff');
+    font-family: 'Avenir LT Pro';
+    src: url('../font/AvenirLTPro-Heavy.woff2') format('woff2'),
+        url('../font/AvenirLTPro-Heavy.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro';
+    src: url('../font/AvenirLTPro-Medium.woff2') format('woff2'),
+        url('../font/AvenirLTPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro';
+    src: url('../font/AvenirLTPro-LightOblique.woff2') format('woff2'),
+        url('../font/AvenirLTPro-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro';
+    src: url('../font/AvenirLTPro-Black.woff2') format('woff2'),
+        url('../font/AvenirLTPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro';
+    src: url('../font/AvenirLTPro-Book.woff2') format('woff2'),
+        url('../font/AvenirLTPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro';
+    src: url('../font/AvenirLTPro-Oblique.woff2') format('woff2'),
+        url('../font/AvenirLTPro-Oblique.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-Semibold.woff2') format('woff2'),
-        url('SFProText-Semibold.woff') format('woff');
-    font-weight: 600;
+    font-family: 'Avenir LT Pro';
+    src: url('../font/AvenirLTPro-HeavyOblique.woff2') format('woff2'),
+        url('../font/AvenirLTPro-HeavyOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro';
+    src: url('../font/AvenirLTPro-BlackOblique.woff2') format('woff2'),
+        url('../font/AvenirLTPro-BlackOblique.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro';
+    src: url('../font/AvenirLTPro-Roman.woff2') format('woff2'),
+        url('../font/AvenirLTPro-Roman.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-Thin.woff2') format('woff2'),
-        url('SFProText-Thin.woff') format('woff');
-    font-weight: 100;
+    font-family: 'Avenir LT Pro';
+    src: url('../font/AvenirLTPro-Light.woff2') format('woff2'),
+        url('../font/AvenirLTPro-Light.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-SemiboldItalic.woff2') format('woff2'),
-        url('SFProText-SemiboldItalic.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-UltralightItalic.woff2') format('woff2'),
-        url('SFProText-UltralightItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-ThinItalic.woff2') format('woff2'),
-        url('SFProText-ThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SFProText';
-    src: url('SFProText-Ultralight.woff2') format('woff2'),
-        url('SFProText-Ultralight.woff') format('woff');
-    font-weight: 100;
+    font-family: 'Avenir LT Pro 65';
+    src: url('../font/AvenirLTPro-MediumOblique.woff2') format('woff2'),
+        url('../font/AvenirLTPro-MediumOblique.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
